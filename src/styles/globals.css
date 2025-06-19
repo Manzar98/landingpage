@@ -1,15 +1,15 @@
 .hero-bg {
-  background-image: url('../assets/images/mainbg.png');
+  background-image: url('../../public/assets/images/mainbg.png');
   background-size: cover;
   background-position: center;
 }
 .powerfull-gen-bg {
-  background-image: url('../assets/images/contentbg.jpg');
+  background-image: url('../../public/assets/images/contentbg.jpg');
   background-size: cover;
   background-position: center;
 }
 .features-bg{
-    background-image: url('../assets/images/featurebg.jpg');
+    background-image: url('../../public/assets/images/featurebg.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -18,5 +18,20 @@
 
 }
 .testi-bg {
-    background-color: #1E0E62;
+    background: #1E0E62;
+}
+.call-to-action-bg {
+  background-image: url('../../public/assets/images/calltoactionbg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.keep-in-touch-bg {
+  background-image: url('../../public/assets/images/keepintouchbg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pricing-bg {
+  background-image: url('../../public/assets/images/pricingbg.jpg');
+    background-size: cover;
+    background-position: center;
 }

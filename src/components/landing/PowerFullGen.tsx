@@ -1,35 +1,6 @@
 // // src/components/landing/WhyChooseUs.tsx
 // import { Zap, Shield, Users } from "lucide-react"
 
-// export default function WhyChooseUs() {
-//   return (
-//     <section className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-700 text-white flex items-center justify-center px-4 overall-bg choose-us-bg"> 
-//       <div className="max-w-6xl mx-auto text-center">
-//         <h2 className="text-4xl md:text-5xl font-bold mb-8">Why Choose Us</h2>
-//         <p className="text-xl mb-12 opacity-90 max-w-3xl mx-auto">
-//           We provide cutting-edge solutions that help businesses grow and succeed in the digital world
-//         </p>
-//         <div className="grid md:grid-cols-3 gap-8">
-//           <div className="text-center">
-//             <Zap className="h-16 w-16 mx-auto mb-4" />
-//             <h3 className="text-2xl font-semibold mb-4">Lightning Fast</h3>
-//             <p className="opacity-80">Optimized for speed and performance</p>
-//           </div>
-//           <div className="text-center">
-//             <Shield className="h-16 w-16 mx-auto mb-4" />
-//             <h3 className="text-2xl font-semibold mb-4">Secure</h3>
-//             <p className="opacity-80">Enterprise-grade security measures</p>
-//           </div>
-//           <div className="text-center">
-//             <Users className="h-16 w-16 mx-auto mb-4" />
-//             <h3 className="text-2xl font-semibold mb-4">Collaborative</h3>
-//             <p className="opacity-80">Built for teams and collaboration</p>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
 export default function PowerFullGen() {
   return (
     <section className="relative min-h-screen bg-purple-900/70 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 overflow-hidden powerfull-gen-bg overall-bg">

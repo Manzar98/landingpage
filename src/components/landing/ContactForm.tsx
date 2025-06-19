@@ -6,7 +6,7 @@ import { useState } from "react"
 import { Twitter } from "lucide-react"
 import { Button } from "../ui/Button"
 
-export default function Component() {
+export default function ContactForm() {
   const [activeTab, setActiveTab] = useState("signup")
   const [formData, setFormData] = useState({
     email: "",
@@ -86,7 +86,7 @@ export default function Component() {
                   placeholder="Your email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-4 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent placeholder-gray-400 text-gray-900"
+                  className="w-full px-4 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent placeholder-gray-400 text-gray-900"
                   required
                 />
               </div>
@@ -97,14 +97,14 @@ export default function Component() {
                   placeholder="Your password"
                   value={formData.password}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-4 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent placeholder-gray-400 text-gray-900"
+                  className="w-full px-4 py-4 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent placeholder-gray-400 text-gray-900"
                   required
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-green-400 to-green-500 text-white font-semibold py-4 rounded-lg hover:from-green-500 hover:to-green-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="w-full bg-gradient-to-r from-green-400 to-green-500 text-white font-semibold py-4 rounded-full hover:from-green-500 hover:to-green-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 {activeTab === "signup" ? "Create an Account" : "Sign In"}
               </button>
@@ -113,7 +113,7 @@ export default function Component() {
 
               <button
                 type="button"
-                className="w-full bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold py-4 rounded-lg hover:from-blue-500 hover:to-blue-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center space-x-2"
+                className="w-full bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold py-4 rounded-full hover:from-blue-500 hover:to-blue-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center space-x-2"
               >
                 <Twitter className="w-5 h-5" />
                 <span>Login via Twitter</span>

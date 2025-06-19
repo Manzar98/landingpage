@@ -2,7 +2,10 @@
 import { Check } from "lucide-react"
 import { Card } from "../ui/Card"
 import { Square, Diamond } from "lucide-react"
-// import screenEffect from '../assets/images/screen-effect.png';
+import screenEffect from '../../public/assets/images/screen-effect.png';
+
+
+
 export default function Features() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-700 text-white flex items-center justify-center px-4 features-bg overall-bg relative">
@@ -13,13 +16,13 @@ export default function Features() {
         <div className="grid lg:grid-cols-12 gap-12 items-center min-h-[80vh]">
           {/* Left side - Laptop mockup (4 columns) */}
           <div className="relative lg:col-span-4">
-            <img
-              src={""}
-              alt="Laptop showing design interface with ace branding and monstera leaf"
-              width={600}
-              height={400}
-              className="w-full max-w-lg mx-auto lg:mx-0"
-            />
+          <img
+  src="/assets/images/screen-effect.png"  // ✅ this path is relative to your public folder
+  alt="Laptop showing design interface"
+  width={600}
+  height={400}
+  className="w-full max-w-lg mx-auto lg:mx-0"
+/>
           </div>
 
           {/* Right side - Content (8 columns) */}
