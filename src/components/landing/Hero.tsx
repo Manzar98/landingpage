@@ -19,7 +19,8 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight, Settings } from "lucide-react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
+import NavBar from "../common/NavBar"
 
 export default function Component() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -60,27 +61,8 @@ export default function Component() {
 
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 overflow-hidden hero-bg overall-bg">
-
       {/* Navigation */}
-      <nav className="relative z-20 flex items-center justify-center pt-8 pb-4">
-        <div className="flex items-center space-x-8 text-white">
-          <a href="#" className="text-purple-200 hover:text-white transition-colors duration-200">
-            Home
-          </a>
-          <a href="#" className="hover:text-purple-200 transition-colors duration-200 font-medium">
-            Features
-          </a>
-          <a href="#" className="hover:text-purple-200 transition-colors duration-200 font-medium">
-            Pricing
-          </a>
-          <a href="#" className="hover:text-purple-200 transition-colors duration-200 font-medium">
-            Blog
-          </a>
-          <Settings className="w-5 h-5 text-purple-200 hover:text-white cursor-pointer transition-colors duration-200" />
-          <span className="font-bold text-xl">Be</span>
-        </div>
-      </nav>
-
+      <NavBar />
       {/* Main Content */}
       <div className="relative z-10 flex items-center justify-center min-h-[calc(100vh-120px)] px-4">
         <div className="text-center text-white max-w-4xl mx-auto">
