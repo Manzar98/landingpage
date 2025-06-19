@@ -1,0 +1,22 @@
+.hero-bg {
+  background-image: url('../assets/images/mainbg.png');
+  background-size: cover;
+  background-position: center;
+}
+.powerfull-gen-bg {
+  background-image: url('../assets/images/contentbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.features-bg{
+    background-image: url('../assets/images/featurebg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+.overall-bg {
+  background-color: #2F1893 !important;
+
+}
+.testi-bg {
+    background-color: #1E0E62;
+}
