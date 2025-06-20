@@ -13,10 +13,9 @@
     background-size: cover;
     background-position: center;
   }
-.overall-bg {
-  background-color: #2F1893 !important;
-
-}
+  .overall-bg {
+    background-color: rgba(22, 18, 85, 0.8); /* Dark overlay feel */
+  }
 .testi-bg {
     background: #1E0E62;
 }
@@ -25,13 +24,15 @@
     background-size: cover;
     background-position: center;
 }
-.keep-in-touch-bg {
-  background-image: url('../../public/assets/images/keepintouchbg.jpg');
-    background-size: cover;
-    background-position: center;
-}
+/* .keep-in-touch-bg { */
+  
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+/* } */
 .pricing-bg {
   background-image: url('../../public/assets/images/pricingbg.jpg');
     background-size: cover;
     background-position: center;
 }
+

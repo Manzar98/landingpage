@@ -1,39 +1,35 @@
-// // src/components/landing/WhyChooseUs.tsx
-// import { Zap, Shield, Users } from "lucide-react"
-
 export default function PowerFullGen() {
   return (
-    <section className="relative min-h-screen bg-purple-900/70 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 overflow-hidden powerfull-gen-bg overall-bg">
-      {/* Abstract background shapes */}
+    <section className="relative h-screen bg-gradient-to-br from-purple-800 via-indigo-800 to-blue-900 overflow-hidden powerfull-gen-bg">
+      
+
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 lg:py-32">
-        <div className="max-w-4xl mx-auto text-center text-white">
+      <div className="relative z-10 flex items-center justify-center h-full px-4">
+        <div className="max-w-6xl mx-auto text-center text-white">
           {/* Free Sample Badge */}
-          <div className="inline-block mb-8">
-            <span className="text-sm font-semibold tracking-widest uppercase text-purple-200 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm border border-white/20">
-              Free Sample
-            </span>
+          <div className="mb-8">
+            <span className="text-xs font-normal tracking-[0.25em] uppercase text-white/70">FREE SAMPLE</span>
           </div>
 
-          {/* Main Heading */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-8">
-            Powerful Generator and Free{" "}
-            <span className="bg-gradient-to-r from-purple-300 to-blue-300 bg-clip-text text-transparent">
-              Figma Sources
-            </span>
+          {/* Main Heading - matching exact font size and spacing */}
+          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-normal leading-[1.1] mb-8 tracking-[-0.02em]">
+            Powerful Generator and Free
+            <br />
+            Figma Sources
           </h1>
 
-          {/* Description */}
-          <p className="text-lg md:text-xl lg:text-2xl text-purple-100 leading-relaxed max-w-3xl mx-auto font-light">
-            Startup Framework contains components and complex blocks which can easily be integrated into almost any
-            design. All of the components are made in the same style, and can easily be integrated into projects,
-            allowing you to create hundreds of solutions.
-          </p>
+          {/* Description - matching exact line breaks and spacing */}
+          <div className="max-w-4xl mx-auto">
+            <p className="text-base md:text-lg lg:text-xl text-white/75 leading-[1.6] font-light tracking-[0.01em]">
+              Startup Framework contains components and complex blocks which can easily be
+              <br />
+              integrated into almost any design. All of the components are made in the same style, and
+              <br />
+              can easily be integrated into projects, allowing you to create hundreds of solutions.
+            </p>
+          </div>
         </div>
       </div>
-
-      {/* Subtle overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/20"></div>
     </section>
   )
 }
